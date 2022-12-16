@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main-div {
+
+
+  width: 100%;
+  height: 100vh;
+  background-image: url(" ../public/images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.nav ul  {
+
+  margin: 0;
+  padding: 0;
+
+}
+
+.nav ul li{
+
+  display: inline;
+  list-style-type: none;
+
+}
+
+.image-name {
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.explore {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px white solid;
+
+  width: 110px;
+  height: 35px;
+  color: white;
+  background-color: #00b894;
+  border-radius: 20px;
+}
+
+
+.menu-link1 ul selet {
+  background-color: none;
+
+}
+
+.menu-link1 ul {
+  list-style-type: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+.footer-tag {
+  height: auto;
+  width: auto;
+  background-color: gray;
+  display: flex;
+
+
+}
+
+.polygon-tag {
+
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+}
+
+.paragraph1 {
+  width: 345px;
+  height: 65px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: ghostwhite;
+}
+
+.paragraph2 {
+  width: 410px;
+  height: 90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: ghostwhite;
+}
+
+.tech-tag {
+  display: flex;
+  justify-content: space-around;
+  background-color: gray;
+}
+
+.media-tag ul {
+
+  list-style-type: none;
+}
+
+.making {
+  display: block;
+  margin-right: 250px;
+  margin-left: 63px;
+  background-color: gray;
+}
+
+.polygon-tag1 {
+
+  background-color: grey;
+}
